@@ -1,0 +1,16 @@
+# Build output
+/target/
+
+# Backup files created by rustfmt
+**/*.rs.bk
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Note: Cargo.lock is intentionally NOT ignored. For applications (binaries)
+# it should be committed, so every build uses the same dependency versions.
+specs.md
